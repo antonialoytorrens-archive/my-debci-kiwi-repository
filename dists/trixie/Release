@@ -1,0 +1,63 @@
+Origin: aat-kiwi-debian-repository
+Label: aat-kiwi-debian-repository
+Codename: trixie
+Date: Fri, 07 Aug 2026 09:26:42 UTC
+Architectures: amd64 arm64 armel armhf i386 riscv64
+Components: main
+MD5Sum:
+ d308c048c85d2503241414eb9b1a4f44 11898 main/binary-amd64/Packages
+ 5984a148ab866d6703a6756d5d4ffd64 3302 main/binary-amd64/Packages.gz
+ 286b36c2d74eb880dd13a273a8f28b99 105 main/binary-amd64/Release
+ 87a2b7043b1e97930aaf7330c52b29a7 11804 main/binary-arm64/Packages
+ a29699af3b2cc729df3cb109d165eee1 3261 main/binary-arm64/Packages.gz
+ 89db5d247b79713f64dd901c5d391ad7 105 main/binary-arm64/Release
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-armel/Packages
+ 7029066c27ac6f5ef18d660d5741979a 20 main/binary-armel/Packages.gz
+ 037e386ae74914cbd54834fe075b6bc1 105 main/binary-armel/Release
+ ab087909d4be6ee388e6a3947619e1d4 11818 main/binary-armhf/Packages
+ 297581149a11fb831091a2ff244318b5 3271 main/binary-armhf/Packages.gz
+ ba55091e02307e792878404ef02b359e 105 main/binary-armhf/Release
+ 5ea622401d879dadf8ed757617a1f3be 11858 main/binary-i386/Packages
+ a8fe15aff0cadf1982f2c1c7a97ce8f0 3294 main/binary-i386/Packages.gz
+ 0193d6d5243bc4835b8eff5d459a9b21 104 main/binary-i386/Release
+ e578c14cb62235026c72d9b38be4b674 11844 main/binary-riscv64/Packages
+ 3f93393f21e63796af789810d70f6e9a 3262 main/binary-riscv64/Packages.gz
+ e55efc7afdf1ea3e03b9b955ea28f5db 107 main/binary-riscv64/Release
+SHA1:
+ 99b2b68e2a1732b94896d1a18e2ef1bbea2b53e8 11898 main/binary-amd64/Packages
+ d32e2d8eaa0c3c5cb94829bb1837a16ac36f5630 3302 main/binary-amd64/Packages.gz
+ 46e23dfa47349b38e2c870e953b9095a830ea4be 105 main/binary-amd64/Release
+ cac9b58247b628f332f53ade672d7a24b61cc4f8 11804 main/binary-arm64/Packages
+ 4bf1f3b83898c96c168540a14fe4e999fa6d08eb 3261 main/binary-arm64/Packages.gz
+ c703453fe72f7ba7e236dea7aecefe7f60b264d4 105 main/binary-arm64/Release
+ da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/binary-armel/Packages
+ 46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/binary-armel/Packages.gz
+ cb734984b8bcdc3dbd8817069e351a8928c89d2d 105 main/binary-armel/Release
+ bd7972756625bd3e7d1e885517634ab1768a7935 11818 main/binary-armhf/Packages
+ 87940bfea6d45a30e647a62f9c61652066a33540 3271 main/binary-armhf/Packages.gz
+ ead7ea88d1ee8326b8112ed2d764349bf22226c2 105 main/binary-armhf/Release
+ 595702d6240a4f01a74d963b3feafb2ab6821cf8 11858 main/binary-i386/Packages
+ 7430565ae17a87ee7c8121924fc21eeb02ff6891 3294 main/binary-i386/Packages.gz
+ b36f8eba7781513010b13908f726f574a11fa981 104 main/binary-i386/Release
+ c6e2b93dabdef7d5abe32b70f92d2f96f48ae930 11844 main/binary-riscv64/Packages
+ 155572eff1c8ac1c8f508bbb97aa4e6575303776 3262 main/binary-riscv64/Packages.gz
+ e5904600b67547659c389a0e2845d34dc183b09d 107 main/binary-riscv64/Release
+SHA256:
+ c4f2aad74ddac71961e2d90413ab5d9fca3f76ec9034552252876332ee25f643 11898 main/binary-amd64/Packages
+ 4b05169adbd2b351351f8a704663a23667345b588057ffe3363f8a2026f85d11 3302 main/binary-amd64/Packages.gz
+ 443c28e6ec278afda36118d86e25b7d8a51647c7107013fd0024de910669b65c 105 main/binary-amd64/Release
+ 8826772ab0052e52ce25cd7f8db6582b240fd9a3031c8000d133f70d31d1758d 11804 main/binary-arm64/Packages
+ 9f686cde8835d302eba47fc8e3e4ff9c699380fa61973619da0f738e2cb5592b 3261 main/binary-arm64/Packages.gz
+ e75f36fab1a3758424e6bb59cb1ee4e4005767ae14b6825999d3987f89ad980e 105 main/binary-arm64/Release
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-armel/Packages
+ 59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/binary-armel/Packages.gz
+ 485e75ce1a13ed413f5bb06d297a351692d3d3559c6c2d5000997b45053ddd0d 105 main/binary-armel/Release
+ 0670f5d2e3e033b83016ce2fa5ab5367171c830e79069984060fe8bacb7e4f2c 11818 main/binary-armhf/Packages
+ 8b42330d14851c856dc08b0b7c57a2ebe1e01d842846c1161c19878d4a56c9c0 3271 main/binary-armhf/Packages.gz
+ 917e03021774b967ec28a790d73737c844112af983523d5e054ff151635c02d6 105 main/binary-armhf/Release
+ c51cbdfddfaa4697732187f04ad918ce9812eda3017d7a1eef1b4434eefbbf33 11858 main/binary-i386/Packages
+ 6504aad1006d6b9aa96fa61cc3b51068980481b7ce5a0b581f6ae1903a75afce 3294 main/binary-i386/Packages.gz
+ f32b5198aaa5d5e01edeb39d01b9462aaed3b56ec3dd0581b3859ab61df8fe71 104 main/binary-i386/Release
+ c78b6c4c3e94d9056c1b62a20c416a976983d6d1eac2cd3845014ed0c7c53188 11844 main/binary-riscv64/Packages
+ 9b2aa35ec1d5f3f32a7881885098987279b4ba6d095e7984aafcc0c4abb7cad6 3262 main/binary-riscv64/Packages.gz
+ d253a4d978431d016919771c51f9e6e84108861f11d9f00a9b8b681ccc339d23 107 main/binary-riscv64/Release

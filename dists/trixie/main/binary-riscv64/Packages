@@ -1,0 +1,293 @@
+Package: kiwi
+Version: 10.3.9-1~aatdeb13u1
+Architecture: riscv64
+Maintainer: John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>
+Installed-Size: 2975
+Depends: debootstrap, screen, python3-docopt-ng, python3-lxml, python3-requests, python3-simplejson, python3-yaml, python3:any
+Homepage: https://osinside.github.io/kiwi
+Priority: optional
+Section: otherosfs
+Filename: pool/main/k/kiwi/kiwi_10.3.9-1~aatdeb13u1_riscv64.deb
+Size: 345904
+SHA256: 5b01376dbd8c157f41a97edc7113f88a7c3f4d137c67924ac4ad074ebf795061
+SHA1: 38ee9e747f9f77d3c1d85efbd349003e9047e575
+MD5sum: 09af0d9fc9f2ec79594f225325499e0b
+Description: Flexible OS Image and Appliance Builder
+ The KIWI Image System provides an operating system image builder
+ for Linux supported hardware platforms as well as for virtualization
+ and cloud systems.
+
+Package: kiwi-dracut-lib
+Source: kiwi
+Version: 10.3.9-1~aatdeb13u1
+Architecture: riscv64
+Maintainer: John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>
+Installed-Size: 69
+Depends: bc, btrfs-progs, cryptsetup, dmsetup, dracut, dracut-network, e2fsprogs, gdisk, lvm2, mdadm, parted, xz-utils
+Homepage: https://osinside.github.io/kiwi
+Priority: optional
+Section: otherosfs
+Filename: pool/main/k/kiwi/kiwi-dracut-lib_10.3.9-1~aatdeb13u1_riscv64.deb
+Size: 15908
+SHA256: 570ed725f9bfa40ad9b4bea3d0698d09ddd1b31a799ec2408be42bbbcc11cdeb
+SHA1: 9b175f1a352870cc947b6f127e3c47a28f783581
+MD5sum: e412081bca1f5f331a664022813a8a32
+Description: KIWI - Dracut kiwi Library
+ This package contains a collection of methods to provide a library
+ for tasks done in other kiwi dracut modules.
+
+Package: kiwi-dracut-live
+Source: kiwi
+Version: 10.3.9-1~aatdeb13u1
+Architecture: riscv64
+Maintainer: John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>
+Installed-Size: 48
+Depends: dialog, dmsetup, dracut, dracut-network, e2fsprogs, parted, xfsprogs, xorriso
+Homepage: https://osinside.github.io/kiwi
+Priority: optional
+Section: otherosfs
+Filename: pool/main/k/kiwi/kiwi-dracut-live_10.3.9-1~aatdeb13u1_riscv64.deb
+Size: 11304
+SHA256: 6d14fa6d856862f1e6546400ef673f0c14110ea0e381ecfc9f93561187a7a4f6
+SHA1: 125f4e042da07a84228a8cb6b436e97c5acbc6f9
+MD5sum: a84a356b60aef620ed9c5497f1b01442
+Description: KIWI - Dracut module for iso(live) image type
+ This package contains the kiwi-live dracut module which is
+ used for booting ISO (live) images built with KIWI.
+
+Package: kiwi-dracut-oem-dump
+Source: kiwi
+Version: 10.3.9-1~aatdeb13u1
+Architecture: riscv64
+Maintainer: John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>
+Installed-Size: 56
+Depends: gawk, kexec-tools, kiwi-dracut-lib, kpartx
+Homepage: https://osinside.github.io/kiwi
+Priority: optional
+Section: otherosfs
+Filename: pool/main/k/kiwi/kiwi-dracut-oem-dump_10.3.9-1~aatdeb13u1_riscv64.deb
+Size: 12392
+SHA256: 97d69077d895254845e8ad0c40a7ac285670e9903415f7ff401fc30bb41003fd
+SHA1: 917d071548aecac5ad1c3520c0be832c89958f63
+MD5sum: 3708edfd7f8eba7edb2a7aa3d1674f75
+Description: KIWI - Dracut module for oem(install) image type
+ This package contains the kiwi-dump and kiwi-dump-reboot dracut
+ modules which is used to install an oem image onto a target disk.
+ It implements a simple installer which allows for user selected
+ target disk or unattended installation to target. The source of
+ the image to install could be either from media (CD/DVD/USB) or
+ from remote.
+
+Package: kiwi-dracut-oem-repart
+Source: kiwi
+Version: 10.3.9-1~aatdeb13u1
+Architecture: riscv64
+Maintainer: John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>
+Installed-Size: 28
+Depends: kiwi-dracut-lib
+Homepage: https://osinside.github.io/kiwi
+Priority: optional
+Section: otherosfs
+Filename: pool/main/k/kiwi/kiwi-dracut-oem-repart_10.3.9-1~aatdeb13u1_riscv64.deb
+Size: 6700
+SHA256: 9dec1ae67206a088994d2e2f7429557252296fe15e401f67fa2d1a80b95caa45
+SHA1: 3bbe19387d51eca7a87f2c20b2ccf92e2d5d13e1
+MD5sum: 6d85fc96fa797b49335fdf8281290283
+Description: KIWI - Dracut module for oem(repart) image type
+ This package contains the kiwi-repart dracut module which is
+ used to repartition the oem disk image to the current disk
+ geometry according to the setup in the kiwi image configuration.
+
+Package: kiwi-dracut-overlay
+Source: kiwi
+Version: 10.3.9-1~aatdeb13u1
+Architecture: riscv64
+Maintainer: John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>
+Installed-Size: 26
+Depends: kiwi-dracut-lib
+Homepage: https://osinside.github.io/kiwi
+Priority: optional
+Section: otherosfs
+Filename: pool/main/k/kiwi/kiwi-dracut-overlay_10.3.9-1~aatdeb13u1_riscv64.deb
+Size: 6356
+SHA256: db115a659e11c36d5de2e07da6e4e6d2f061cc9725426f3a35efaa6f35e8b964
+SHA1: f5c785accd69787e0ea8b6852dbd3252e68f51ae
+MD5sum: fa151b2eae94aca78964b860e936d3a1
+Description: KIWI - Dracut module for VMX (+overlay) image type
+ This package contains the kiwi-overlay dracut module which is
+ used for booting VMX images built with KIWI and configured to
+ use an overlay root filesystem.
+
+Package: kiwi-dracut-verity
+Source: kiwi
+Version: 10.3.9-1~aatdeb13u1
+Architecture: riscv64
+Maintainer: John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>
+Installed-Size: 38
+Depends: kiwi-dracut-lib, libc6 (>= 2.34)
+Homepage: https://osinside.github.io/kiwi
+Priority: optional
+Section: otherosfs
+Filename: pool/main/k/kiwi/kiwi-dracut-verity_10.3.9-1~aatdeb13u1_riscv64.deb
+Size: 9028
+SHA256: cbd407c16ae6ebac7943c609bd92b7b7f3466d8dcf15a2f2ab80513d87e0726a
+SHA1: 14a6c20c6b82be190bccb72cc24d46d04d339b9b
+MD5sum: 480efb2dc4dcf5e7da60405df67c185c
+Description: KIWI - Dracut module for disks with embedded verity metadata
+ This package contains the kiwi-verity dracut module which is used
+ for booting OEM images built with KIWI and configured to use an
+ embedded verity metadata block via the embed_verity_metadata
+ type attribute.
+
+Package: kiwi-dracut-verity-dbgsym
+Source: kiwi
+Version: 10.3.9-1~aatdeb13u1
+Auto-Built-Package: debug-symbols
+Architecture: riscv64
+Maintainer: John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>
+Installed-Size: 32
+Depends: kiwi-dracut-verity (= 10.3.9-1~aatdeb13u1)
+Priority: optional
+Section: debug
+Filename: pool/main/k/kiwi/kiwi-dracut-verity-dbgsym_10.3.9-1~aatdeb13u1_riscv64.deb
+Size: 10744
+SHA256: 851e51ba0c8feeaf74ce6d1fb7952a80a41f704528f4133322df82c8773838f1
+SHA1: de73d021e614fcc53f990bddb75e0bf88ecc70ee
+MD5sum: 07043a2db02d15c5d7d1711576102de6
+Description: debug symbols for kiwi-dracut-verity
+Build-Ids: 9b753a79343565f4a17e10778382cb27ca7b17f8
+
+Package: kiwi-systemdeps
+Source: kiwi
+Version: 10.3.9-1~aatdeb13u1
+Architecture: riscv64
+Maintainer: John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>
+Installed-Size: 14
+Depends: kiwi-systemdeps-bootloaders, kiwi-systemdeps-containers, kiwi-systemdeps-core, kiwi-systemdeps-disk-images, kiwi-systemdeps-filesystems, kiwi-systemdeps-iso-media
+Homepage: https://osinside.github.io/kiwi
+Priority: optional
+Section: otherosfs
+Filename: pool/main/k/kiwi/kiwi-systemdeps_10.3.9-1~aatdeb13u1_riscv64.deb
+Size: 3852
+SHA256: 06a16dec3e11538e3c4f3a8ad5ce789a205e5169aa13855df218a87b1296d3ed
+SHA1: 4d93ce898dfce3f53992c32a509d3ee7ff9710c0
+MD5sum: 14047ea030d8e9240e8036075017b65a
+Description: KIWI - Host system dependencies
+ Host setup helper to pull in all packages which are required
+ or useful to leverage all functionality in KIWI.
+
+Package: kiwi-systemdeps-bootloaders
+Source: kiwi
+Version: 10.3.9-1~aatdeb13u1
+Architecture: riscv64
+Maintainer: John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>
+Installed-Size: 14
+Depends: kiwi-systemdeps-core
+Homepage: https://osinside.github.io/kiwi
+Priority: optional
+Section: otherosfs
+Filename: pool/main/k/kiwi/kiwi-systemdeps-bootloaders_10.3.9-1~aatdeb13u1_riscv64.deb
+Size: 3812
+SHA256: 4c297eda0080d8f64d0cc7b64b740de17b7555f2da917033800a5e30b4045017
+SHA1: d9782488af4dc0ae84a6cf70aab8aace8250e242
+MD5sum: 2c736d673a4a684544ab62f4507c2bff
+Description: KIWI - host requirements for configuring bootloaders
+ Host setup helper to pull in all packages required/useful on
+ the build host for configuring bootloaders on images
+
+Package: kiwi-systemdeps-containers
+Source: kiwi
+Version: 10.3.9-1~aatdeb13u1
+Architecture: riscv64
+Maintainer: John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>
+Installed-Size: 14
+Depends: buildah, skopeo
+Homepage: https://osinside.github.io/kiwi
+Priority: optional
+Section: otherosfs
+Filename: pool/main/k/kiwi/kiwi-systemdeps-containers_10.3.9-1~aatdeb13u1_riscv64.deb
+Size: 3836
+SHA256: b82ed1a1bfe50f52493a6a8313e20c297aaaaf49a31a131876b77158451d81fa
+SHA1: 527418b9a44402db0fc41ba1b894ba78596285e5
+MD5sum: 7e1306b090faebfc3a609bab9d2029fd
+Description: KIWI - host requirements for container images
+ Host setup helper to pull in all packages which are required
+ or useful on the build host to build container images such
+ as docker.
+
+Package: kiwi-systemdeps-core
+Source: kiwi
+Version: 10.3.9-1~aatdeb13u1
+Architecture: riscv64
+Maintainer: John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>
+Installed-Size: 14
+Depends: gnupg, mtools, openssl, rsync
+Homepage: https://osinside.github.io/kiwi
+Priority: optional
+Section: otherosfs
+Filename: pool/main/k/kiwi/kiwi-systemdeps-core_10.3.9-1~aatdeb13u1_riscv64.deb
+Size: 3808
+SHA256: 9bd6cc6e13d7accc93e9213c4b5985057d4232afb1fe590ff83fdc7c9a378531
+SHA1: b4fc25ec4f0164a9a6df0ab747dc313f854dc3f6
+MD5sum: 493cb06bfb78224fd90f841db4af925a
+Description: KIWI - Core host system dependencies
+ This meta-package installs the necessary system dependencies
+ to run KIWI.
+
+Package: kiwi-systemdeps-disk-images
+Source: kiwi
+Version: 10.3.9-1~aatdeb13u1
+Architecture: riscv64
+Maintainer: John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>
+Installed-Size: 14
+Depends: kiwi-systemdeps-bootloaders, kiwi-systemdeps-filesystems, kiwi-systemdeps-iso-media
+Homepage: https://osinside.github.io/kiwi
+Priority: optional
+Section: otherosfs
+Filename: pool/main/k/kiwi/kiwi-systemdeps-disk-images_10.3.9-1~aatdeb13u1_riscv64.deb
+Size: 3844
+SHA256: 9645a3fce4df5d2619f6f59c83d090549d84fbe80b08de547b9cdfd203f58b2c
+SHA1: 33fa0018b803036fffef8a00e8aaebfa5fb7c029
+MD5sum: 69cb08951f026472ec89b5973a66e167
+Description: KIWI - host requirements for disk images
+ Host setup helper to pull in all packages which are required
+ or useful on the build host to build disk images.
+
+Package: kiwi-systemdeps-filesystems
+Source: kiwi
+Version: 10.3.9-1~aatdeb13u1
+Architecture: riscv64
+Maintainer: John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>
+Installed-Size: 14
+Depends: btrfs-progs, cryptsetup, dosfstools, e2fsprogs, gdisk, kiwi-systemdeps-core, kpartx, lvm2, parted, qemu-utils, squashfs-tools, xfsprogs
+Homepage: https://osinside.github.io/kiwi
+Priority: optional
+Section: otherosfs
+Filename: pool/main/k/kiwi/kiwi-systemdeps-filesystems_10.3.9-1~aatdeb13u1_riscv64.deb
+Size: 3892
+SHA256: 1232ec6ce602b521ddda8ba547c167defc0ef01d0ec139822d02188f9d3195ab
+SHA1: 262f948285f5381717727516007d907c524b4595
+MD5sum: 0b686a177b811f3468beb487c4b83657
+Description: KIWI - host requirements for filesystems
+ Host setup helper to pull in all packages which are required or
+ useful on the build host to build filesystem images.
+
+Package: kiwi-systemdeps-iso-media
+Source: kiwi
+Version: 10.3.9-1~aatdeb13u1
+Architecture: riscv64
+Maintainer: John Paul Adrian Glaubitz <glaubitz@physik.fu-berlin.de>
+Installed-Size: 14
+Depends: kiwi-systemdeps-bootloaders, kiwi-systemdeps-core, kiwi-systemdeps-filesystems, xorriso
+Homepage: https://osinside.github.io/kiwi
+Priority: optional
+Section: otherosfs
+Filename: pool/main/k/kiwi/kiwi-systemdeps-iso-media_10.3.9-1~aatdeb13u1_riscv64.deb
+Size: 3864
+SHA256: e8cda5b029b29abb5eaeb000f4bdfdb2ec43a38c9567472fe4b8dbba8a7558c0
+SHA1: a1bfd534b61b19d15e6f2b9720e39b1445474b3b
+MD5sum: 27754962f23dc44ab3f84acd031f261c
+Description: KIWI - host requirements for live and install iso images
+ Host setup helper to pull in all packages which are required or
+ useful on the build host to build live and install iso images.
+
